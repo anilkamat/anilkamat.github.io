@@ -3046,9 +3046,64 @@ h6 {
   margin-top: 60px; }
   .copy_right_text p a {
     color: #766dff; }
-
-/* End Footer Area css
-============================================================================================ */
-/*---------------------------------------------------- */
-
-/*# sourceMappingURL=style.css.map */
+    
+    .brain-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+    }
+    
+    .brain-outline {
+      width: 150px;
+      height: 150px;
+      background-color: white;
+      position: relative;
+      border: 2px solid black;
+      border-radius: 50%;
+      outline: 2px solid black;
+    }
+    
+    .gear-container {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 130px;
+      height: 130px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .gear {
+      width: 30px;
+      height: 30px;
+      background-color: black;
+      position: absolute;
+      clip-path: polygon(50% 0%, 61.8% 38.2%, 100% 50%, 61.8% 61.8%, 50% 100%, 38.2% 61.8%, 0% 50%, 38.2% 38.2%);
+    }
+    
+    .gear:nth-child(1) {
+      top: 0;
+      left: 35px;
+      animation: rotate 3s linear infinite;
+    }
+    
+    .gear:nth-child(2) {
+      bottom: 0;
+      right: 35px;
+      animation: rotate 5s linear reverse infinite;
+    }
+    
+    .gear:nth-child(3) {
+      top: 40px;
+      right: 20px;
+      animation: rotate 7s linear infinite;
+    }
+    
+    @keyframes rotate {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    
