@@ -41,3 +41,121 @@ body {
     padding: 20px;
 }
 
+
+
+/* CSS for the tabs area */
+.mytabs_area {
+    background: linear-gradient(to right, #EE82EE, #00FFFF);
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+/* CSS for the tab navigation */
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-item {
+    margin-bottom: -1px;
+}
+
+.nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    color: #333;
+}
+
+.nav-link:hover {
+    border-color: #ddd #ddd #fff;
+}
+
+.nav-link.active {
+    color: #555;
+    background-color: #f9f9f9;
+    border-color: #ddd #ddd #f9f9f9;
+}
+
+/* CSS for the tab content */
+.tab-content {
+    padding: 20px 0;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+/* CSS for the list items */
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.list li:last-child {
+    border-bottom: none;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+}
+
+.media-body {
+    padding-left: 20px;
+}
+
+.media-body h4 {
+    margin: 0;
+    color: #333;
+}
+
+.media-body p {
+    color: #777;
+}
+
+
+/*  put the education at center
+/* CSS for center alignment */
+.mytabs_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    list-style-type: none;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+}
+
+.media-body {
+    padding-left: 20px;
+    text-align: center;
+}
+
+/* Add this to your CSS to remove list-style */
+.list-unstyled {
+    list-style: none;
+}
